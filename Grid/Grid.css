@@ -1,0 +1,105 @@
+/* Container is set to a grid layout with specific grid-template-areas defining the layout structure */
+.Container {
+    display: grid; /* Use grid layout */
+    grid-template-areas: 
+      "one one two three three" /* First row with one area spanning 5 columns */
+      "one one two six seven" /* Second row with 'two' on the left, 'three' spanning 4 columns */
+      "four five five ten seven" /* Third row with 'two' on the left, 'four' spanning 4 columns */
+      "seventeen five five elleven elleven" /* Fourth row with 'two' on the left, 'five' spanning 2 columns, 'six' spanning 2 columns */
+      "eight nine nine elleven elleven" /* Fifth row with 'two' on the left, 'five' spanning 2 columns, 'six' spanning 2 columns */
+      "eight nine nine elleven elleven" /* Sixth row with 'two' on the left, 'seven' spanning 4 columns */
+      "eight twlell threeteen fourteen fifteen" /* Seventh row with 'two' on the left, 'eight' spanning 4 columns */
+      "eight twlell threeteen fourteen sixteen"; /* Ninth row with 'ten' spanning 5 columns */
+  
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Define styles for each grid item with their respective grid areas */
+  
+  /* Item 1 occupies the area named 'one' */
+  .item1 {
+    grid-area: one;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 2 occupies the area named 'two' */
+  .item2 {
+    grid-area: two;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 3 occupies the area named 'three' */
+  .item3 {
+    grid-area: three;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 4 occupies the area named 'four' */
+  .item4 {
+    grid-area: four;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 5 occupies the area named 'five' */
+  .item5 {
+    grid-area: five;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 6 occupies the area named 'six' */
+  .item6 {
+    grid-area: six;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 7 occupies the area named 'seven' */
+  .item7 {
+    grid-area: seven;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 8 occupies the area named 'eight' */
+  .item8 {
+    grid-area: eight;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 9 occupies the area named 'nine' */
+  .item9 {
+    grid-area: nine;
+    border: 1px solid black; /* Border around the item */
+  }
+  
+  /* Item 10 occupies the area named 'ten' */
+  .item10 {
+    grid-area: ten;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item11 {
+    grid-area: elleven;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item12 {
+    grid-area: twlell;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item13 {
+    grid-area: threeteen;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item14 {
+    grid-area: fourteen;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item15 {
+    grid-area: fifteen;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item16 {
+    grid-area: sixteen;
+    border: 1px solid black; /* Border around the item */
+  }
+  .item17 {
+    grid-area: seventeen;
+    border: 1px solid black; /* Border around the item */
+  }

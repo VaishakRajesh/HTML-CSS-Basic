@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+}
+
+.Container {}
+
+.Heading {}
+
+.Firstheading {
+    padding: 1px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #013e7f;
+}
+
+.fhlinks {
+    display: flex;
+    margin: 15px;
+    color: white;
+}
+
+.secondHeading {
+    display: flex;
+}
+
+.secondsubone {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.secondsubtwo {
+    width: 70%;
+    height: 50px;
+    /* border: 1px solid;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 27px;
+}
+
+.shlinks {
+    font-size: 17px;
+}
+
+.shbutton {
+    background-color: #013e7f;
+    color: white;
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.bodyimage {
+    background-image: url("Image/nirmala-banner-3.jpg");
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bodyimagetext {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.regbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #013e7f;
+}
+
+.regbarlink {
+    font-size: 30px;
+    color: white;
+}
+
+.regbarline {
+    border-left: 1px solid;
+    color: rgb(255, 255, 255);
+}
+
+.Nirmalaglance {
+    display: flex;
+}
+
+.Nirmalaglanceimage {}
+
+.Nirmalaglancerightside {
+    background-color: #013e7f;
+    height: 400px;
+    margin: 50px;
+
+}
+
+.Nirmalaglancehead {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    margin: 50px;
+    font-weight: 600;
+}
+
+.Nirmalaglancetext {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.Nirmalaglancebutton {
+    display: flex;
+    align-content: flex-end;
+    color: white;
+    font-size: 25px;
+    border: 1px solid;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    margin: 30px;
+}
+
+.cretifaction {
+    margin: 60px;
+}
+
+.cretifaction1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cretifaction2 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 20px;
+}
+
+.cretifactionhead {
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.cretifactionimage {}
+
+.choosenirmala {
+    display: flex;
+    background-color: #013e7f;
+    height: 500px;
+
+}
+
+.choosenirmalaleftside {
+    margin: 100px;
+}
+
+.choosenirmalaleftsidehead {
+    font-size: 45px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+
+.choosenirmalaleftsidetext {
+    font-size: 16px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.choosenirmalaleftsidebutton {
+    color: white;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: white;
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+}
+
+.choosenirmalarightside {
+    display: flex;
+}
+
+.choosenirmalarightsidenss {
+    background-color: white;
+    margin: 20px;
+    border: 20px solid;
+    border-color: white;
+}
+
+.choosenirmalarightsidencc {
+    background-color: white;
+    width: 325px;
+    margin: 20px;
+    border: 20px solid;
+    border-color: white;
+}
+
+.choosenirmalarightsidensshead {
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    margin: 10px;
+}
+
+.choosenirmalarightsidensstext {
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.choosenirmalarightsidenssbutton {
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    color: #3e82bc;
+}
+
+.choosenirmalarightsidencchead {
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    margin: 10px;
+}
+
+.choosenirmalarightsidencctext {
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+}
+
+.choosenirmalarightsidenccbutton {
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    color: #3e82bc;
+}
+
+.collegelibrary {
+    display: flex;
+}
+
+.collegelibraryrightsidebox {
+    background-color: #013e7f;
+    width: 500px;
+    height: 500px;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-areas:
+        "one one two two"
+        "one one two two"
+        "three three four four"
+        "three three four four"
+    ;
+}
+
+.collegelibraryrightsidehead {
+    font-weight: 800;
+    font-size: 38px;
+    color: white;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.collegelibraryrightsidetext {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.collegelibraryrightsideboxside1 {
+    grid-area: one;
+    border-bottom: 1px solid #0693e3;
+    border-right: 1px solid #0693e3;
+}
+
+.collegelibraryrightsideboxside2 {
+    grid-area: two;
+    border-bottom: 1px solid #0693e3;
+}
+
+.collegelibraryrightsideboxside3 {
+    grid-area: three;
+    border-right: 1px solid #0693e3;
+
+}
+
+.collegelibraryrightsideboxside4 {
+    grid-area: four;
+}
+
+.placements {
+    margin: 120px;
+}
+
+.placementshead {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.ourprogrammes {
+    background-color: #013e7f;
+
+}
+
+.ourprogrammeshead {
+    margin-left: 45px;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+.ourprogrammesall {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ourprogrammesphd {
+    background-color: white;
+    border: 30px solid;
+    border-color: white;
+    margin: 30px;
+}
+
+.ourprogrammespg {
+    background-color: white;
+    border: 20px solid;
+    border-color: white;
+    margin: 30px;
+}
+
+.ourprogrammesug {
+    background-color: white;
+    border: 20px solid;
+    border-color: white;
+    margin: 30px;
+}
+
+.ourprogrammestext {
+    color: #3e82bc;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.ourrecruitershead {
+    margin-left: 45px;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+.ourrecruitersall {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+.footer {
+    display: flex;
+}
+.footerimage{
+   margin-left: 30px;
+   margin-top: 20px;
+}
+
+.footerrightside {
+    display: flex;
+    gap: 90px;
+}
+
+.footercontactinfo {
+    margin-left: 200px;
+}
+
+.footerusefullinks {
+    margin-left: 200px;
+}
+
+.footercontactinfohead {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.footercontactinfotext {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 30px;
+}
+
+.footerusefullinkshead {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.footerusefullinkstext {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 30px;
+}
+
+.footerend {
+    border-top: 1px solid gray;
+    margin: 40px;
+    font-size: 20px;
+}
